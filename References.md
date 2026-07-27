@@ -59,7 +59,7 @@ The dataset was preprocessed to construct conversational context-response pairs 
 
 If you reference this repository, please also cite the accompanying manuscript:
 
-**Rawat, S., & [Co-author].** *Belief-Scaled Irreversible Finsler Geometry for Path-Dependent Context Generation.* Zenodo. DOI: *<(https://doi.org/10.5281/zenodo.21513273)>*.
+**Rawat, S., & Pahwa, J.S.** *Belief-Scaled Irreversible Finsler Geometry for Path-Dependent Context Generation.* Zenodo. DOI: *<(https://doi.org/10.5281/zenodo.21513273)>*.
 
 ## Notes
 
