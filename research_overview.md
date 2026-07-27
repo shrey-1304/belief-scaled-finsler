@@ -1,47 +1,80 @@
 # Research Overview
 
-## Motivation
+## Abstract
 
-Large language models generate text by conditioning on previously observed context, yet the internal mechanisms governing how context influences future generation remain difficult to characterize. While transformer-based architectures have achieved remarkable empirical performance, there is still limited understanding of how contextual history, belief evolution, and latent representations interact throughout the generation process.
-
-This research explores whether concepts from differential geometry, particularly Finsler geometry, can provide an alternative mathematical framework for modeling context-dependent language generation. The objective is not to replace existing architectures, but to investigate whether geometric formulations can offer new perspectives on path-dependent reasoning and representation learning.
+This repository accompanies the research paper **"Belief-Scaled Irreversible Finsler Geometry for Path-Dependent Context Generation."** It presents an ongoing investigation into geometric approaches for modeling path-dependent context evolution in neural language generation. The project explores whether concepts from Finsler geometry can provide an alternative mathematical framework for representation learning, belief evolution, and sequential reasoning. The repository contains the accompanying manuscript, experimental notebooks, and implementation used throughout the research.
 
 ---
 
-## Description
+# Motivation
 
-This repository accompanies the research paper **"Belief-Scaled Irreversible Finsler Geometry for Path-Dependent Context Generation."** It contains the implementation, experimental notebooks, and supporting materials used throughout the investigation.
+Modern large language models generate text by conditioning on previously observed context, yet the mechanisms governing how contextual history influences future generation remain difficult to characterize. While transformer-based architectures have demonstrated remarkable empirical performance, there is still limited understanding of how latent representations evolve through sequential reasoning.
 
-The work proposes a theoretical framework in which context evolution is modeled as an irreversible geometric trajectory whose local behavior is influenced by dynamically evolving belief states. The accompanying notebook explores the practical implementation of these ideas through experimental neural architectures and empirical evaluation.
-
-As this research is ongoing, both the theoretical framework and implementation continue to evolve through iterative experimentation, theoretical refinement, and literature review.
+This research investigates whether concepts from differential geometry, particularly Finsler geometry, can provide an alternative mathematical framework for modeling path-dependent language generation. Rather than replacing existing architectures, the objective is to explore new theoretical perspectives that may improve our understanding of contextual evolution and representation learning.
 
 ---
 
-## Repository Contents
+# Description
 
-- **`finsler_writeup.pdf`** — Research manuscript describing the proposed framework.
-- **`finslergpt.ipynb`** — Experimental implementation, model development, and exploratory analysis.
-- **`README.md`** — Repository overview, setup instructions, and references.
+The proposed framework models context evolution as an irreversible geometric trajectory whose local behavior is influenced by dynamically evolving belief states. By treating context as a path-dependent process instead of a purely sequential computation, the research explores how geometric structure may provide richer representations of contextual information.
 
----
-
-## Project Status
-
-> 🚧 **Ongoing Research**
-
-This repository documents active independent research. Theoretical formulations, implementations, and experimental results are subject to refinement as the research progresses.
+The accompanying notebook implements experimental versions of these ideas using PyTorch and serves as an environment for empirical investigation and iterative refinement.
 
 ---
 
-## Citation
+# Research Questions
 
-If you use or reference this work, please cite the accompanying paper available on **Zenodo** through its DOI.
-https://doi.org/10.5281/zenodo.21513273
+This work investigates several research questions:
+
+- Can path-dependent geometry provide a useful framework for modeling contextual evolution?
+- How should belief influence transitions through latent representation spaces?
+- Can irreversible geometric formulations improve our understanding of sequence generation?
+- What insights can geometric approaches provide into neural representations?
 
 ---
 
-## Authors
+# Current Status
 
-- **Shreshtha Rawat**
-- **Jaikaran Singh Pahwa**
+- ✅ Theoretical framework completed
+- ✅ Research manuscript published on Zenodo
+- ✅ Initial experimental implementation completed
+- 🔄 Ongoing empirical evaluation and refinement
+- 🔄 Continued literature review and theoretical development
+
+---
+
+# Future Work
+
+Planned directions include:
+
+- Expanded empirical evaluation on larger NLP benchmarks.
+- Comparative analysis against existing neural architectures.
+- Investigation of alternative geometric formulations.
+- Improved experimental methodology and evaluation metrics.
+- Further analysis of learned latent representations.
+- Extension of the framework to broader sequence modeling tasks.
+
+---
+
+# Why This Work?
+
+Large language models continue to improve rapidly, yet many aspects of their internal representations and contextual reasoning remain poorly understood. This work aims to investigate whether geometric perspectives can provide additional theoretical tools for reasoning about these systems. The long-term goal is to contribute toward a deeper understanding of how neural architectures represent and process information.
+
+---
+
+# Keywords
+
+- Representation Learning
+- Neural Architectures
+- Finsler Geometry
+- Differential Geometry
+- Natural Language Processing
+- Sequence Modeling
+- PyTorch
+- Machine Learning Research
+
+---
+
+# Disclaimer
+
+This repository documents ongoing independent research. Theoretical formulations, implementations, and experimental results are subject to refinement as additional experiments are conducted. The repository is intended to accompany the published manuscript and provide transparency into the research process.
