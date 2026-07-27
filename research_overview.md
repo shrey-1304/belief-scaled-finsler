@@ -37,10 +37,11 @@ This repository documents active independent research. Theoretical formulations,
 ## Citation
 
 If you use or reference this work, please cite the accompanying paper available on **Zenodo** through its DOI.
+DOI: https://doi.org/10.5281/zenodo.21513273
 
 ---
 
 ## Authors
 
 - **Shreshtha Rawat**
-- **[Friend's Name]**
+- **Jaikaran Singh Pahwa**
