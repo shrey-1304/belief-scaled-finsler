@@ -2,7 +2,7 @@
 
 This project is the result of a collaborative research effort.
 
-## Shreshtha Rawat
+## Shreshtha Rawat (shrey-1304)
 
 **Contributions**
 
@@ -14,7 +14,7 @@ This project is the result of a collaborative research effort.
 
 ---
 
-## Jaikaran Singh Pahwa
+## Jaikaran Singh Pahwa (Jaikaean)
 
 **Contributions**
 
