@@ -292,8 +292,8 @@ The Randers Finsler norm captures:
 
 ## Author
 
-Shreyas (shrey-1304)
-
+Shreshtha Rawat (shrey-1304)
+Jaikaran Singh Pahwa (Jaikaean)
 ## License
 
 See repository for license information.
